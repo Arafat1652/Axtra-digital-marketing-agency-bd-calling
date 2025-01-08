@@ -1,0 +1,47 @@
+/* Wrapper for the horizontal scroll */
+.horizontal-scroll-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.normal-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  /* background: #f0f0f0; */
+}
+
+.horizontal-scroll-container {
+  display: flex;
+  height: 100vh;
+  width: max-content;
+}
+
+.panel {
+  min-width: 100vw;
+  height: 100vh;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* font-size: 2rem; */
+  /* text-transform: uppercase; */
+  color: white;
+}
+
+.blue {
+  background-color: #fffaf0;
+}
+
+.red {
+  background-color: #f3ecec;
+}
+
+.orange {
+  background-color: #fffaf0;
+}
+
+.purple {
+  background-color: #e0e3cc;
+}
