@@ -4,7 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const CircleChoose = () => {
   return (
-    <div className="p-10 mt-24">
+    <div className="p-10 mt-24 hidden lg:grid">
       <div className="flex items-center justify-between gap-60">
         <div className="lg:flex-grow mt-5 md:mt-0 md:w-1.5/2  flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ml-10">
           <p className="text-gray-900 uppercase font-semibold mb-8">

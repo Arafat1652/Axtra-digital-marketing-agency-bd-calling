@@ -6,7 +6,7 @@ const ReadBlog = () => {
       {/* <!-- https://gist.github.com/goodreds/3d044027175954984fb96c7407a955ab --> */}
 
       {/* <!-- Container --> */}
-      <div className="flex">
+      <div className="lg:flex">
         {/* <!-- Text Column --> */}
         <div className="relative flex flex-col items-center mx-auto">
        <div className="bg-white border-4 p-8 relative z-10 top-24">
@@ -32,8 +32,8 @@ const ReadBlog = () => {
        <div className="bg-white border-4 p-8 relative z-10 top-24">
           <p>UI Design . 02 May 2019</p>
           <h3 className="text-2xl">
-            How to bring fold to your <br /> startup company with <br />
-            Axtra
+            How to manage a talented <br /> and succesful design <br />
+            team
           </h3>
           <hr className="mt-8" />
           <button className="flex mt-6">

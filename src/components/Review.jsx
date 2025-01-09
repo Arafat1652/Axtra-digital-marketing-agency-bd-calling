@@ -6,14 +6,14 @@ import "../App.css";
 
 const Review = () => {
   return (
-    <div className="mt-80">
+    <div className="lg:mt-80 mt-16">
       <div
         style={{
           backgroundImage:
             "url(https://axtra-next-agency.vercel.app/assets/imgs/testimonial/3/bg.png)",
         }}
       >
-        <div className="w-[40%] items-center mx-auto">
+        <div className="lg:w-[40%] items-center mx-auto">
           <Swiper
             cssMode={true}
             navigation={true}
@@ -116,7 +116,7 @@ const Review = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-        <div className="absolute w-[20%]">
+        <div className=" w-[20%] hidden lg:flex lg:absolute">
             <img className="absolute -top-[650px] -left-[140px]" src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.5fcd9521.jpg&w=384&q=75" alt="laptop girl" srcSet="" />
             <img className="absolute -top-[600px] -right-[300px]" src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.44563823.jpg&w=256&q=75" alt="sofa girl" srcSet="" />
             <img className="absolute -top-80 -left-96" src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.82004ae1.jpg&w=256&q=75" alt="men laptop" srcSet="" />

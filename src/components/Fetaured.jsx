@@ -6,7 +6,7 @@ import "../App.css"
 
 const Fetaured = () => {
     return (
-        <div className='max-w-[100%] mx-auto mt-24 bg-[#121212] p-24'>  
+        <div className='max-w-[100%] mx-auto lg:mt-24 bg-[#121212] lg:p-24'>  
 
 <Swiper
         cssMode={true}
@@ -22,85 +22,86 @@ const Fetaured = () => {
         loop={true}
       >
     <SwiperSlide>
-  <div className="relative">
+  <div className="relative px-10 lg:px-0">
         <p className='text-white uppercase'>Featured <br /> Work</p>
-    <div className="hero h-[80vh] bg-cover object-center overflow-hidden flex justify-around">
-        <div>
+    <div className="hero h-[100vh] bg-cover object-center overflow-hidden lg:flex justify-around">
+        <div className='mr-60 lg:mr-0'>
 
-        <h2 className='text-white ml-96 '><span className='text-5xl'> 1 /</span>4</h2>
-        <h1 className='text-white text-[180px] font-medium leading-[1]'>
+        <h2 className='text-white lg:ml-96 '><span className='text-5xl'> 1 /</span>4</h2>
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1]'>
             BENJON
         </h1> 
-        <h1 className='text-white text-[180px] font-medium leading-[1] translate-x-44 z-10
-        '> WEBSITE </h1>
-        <h1 className='text-white text-[180px] font-medium leading-[1]
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1] lg:translate-x-44
+         z-10 translate-x-10'> WEBSITE </h1>
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1]
         '> 2012 </h1>
         </div>
       
-      <img className='-translate-x-24 z-[-1]' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.fa8e208f.jpg&w=1200&q=75" alt=""  />
+      <img className='lg:-translate-x-24 z-[-1]' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.fa8e208f.jpg&w=1200&q=75" alt=""  />
     </div>
   </div>
 </SwiperSlide>
     <SwiperSlide>
-  <div className="relative">
+  <div className="relative px-10 lg:px-0">
         <p className='text-white uppercase'>Featured <br /> Work</p>
-    <div className="hero h-[80vh] bg-cover object-center overflow-hidden flex justify-around">
-        <div>
+    <div className="hero h-[100vh] bg-cover object-center overflow-hidden lg:flex justify-around">
+        <div className='mr-60 lg:mr-0'>
 
-        <h2 className='text-white ml-96 '><span className='text-5xl'> 2 /</span>4</h2>
-        <h1 className='text-white text-[180px] font-medium leading-[1]'>
+        <h2 className='text-white lg:ml-96 '><span className='text-5xl'> 2 /</span>4</h2>
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1]'>
             BENJON
         </h1> 
-        <h1 className='text-white text-[180px] font-medium leading-[1] translate-x-44 z-10
-        '> WEBSITE </h1>
-        <h1 className='text-white text-[180px] font-medium leading-[1]
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1] lg:translate-x-44
+         z-10 translate-x-10'> WEBSITE </h1>
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1]
         '> 2012 </h1>
         </div>
       
-      <img className='-translate-x-24 z-[-1]' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.23156821.jpg&w=1200&q=75" alt=""  />
+      <img className='lg:-translate-x-24 z-[-1]' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.23156821.jpg&w=1200&q=75" alt=""  />
     </div>
   </div>
 </SwiperSlide>
     <SwiperSlide>
-  <div className="relative">
+  <div className="relative px-10 lg:px-0">
         <p className='text-white uppercase'>Featured <br /> Work</p>
-    <div className="hero h-[80vh] bg-cover object-center overflow-hidden flex justify-around">
-        <div>
+    <div className="hero h-[100vh] bg-cover object-center overflow-hidden lg:flex justify-around">
+        <div className='mr-60 lg:mr-0'>
 
-        <h2 className='text-white ml-96 '><span className='text-5xl'> 3 /</span>4</h2>
-        <h1 className='text-white text-[180px] font-medium leading-[1]'>
+        <h2 className='text-white lg:ml-96 '><span className='text-5xl'> 3 /</span>4</h2>
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1]'>
             BENJON
         </h1> 
-        <h1 className='text-white text-[180px] font-medium leading-[1] translate-x-44 z-10
-        '> WEBSITE </h1>
-        <h1 className='text-white text-[180px] font-medium leading-[1]
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1] lg:translate-x-44
+         z-10 translate-x-10'> WEBSITE </h1>
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1]
         '> 2012 </h1>
         </div>
       
-      <img className='-translate-x-24 z-[-1]' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.2d3fe8ed.jpg&w=1200&q=75" alt=""  />
+      <img className='lg:-translate-x-24 z-[-1]' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.2d3fe8ed.jpg&w=1200&q=75" alt=""  />
     </div>
   </div>
 </SwiperSlide>
     <SwiperSlide>
-  <div className="relative">
+  <div className="relative px-10 lg:px-0">
         <p className='text-white uppercase'>Featured <br /> Work</p>
-    <div className="hero h-[80vh] bg-cover object-center overflow-hidden flex justify-around">
-        <div>
+    <div className="hero h-[100vh] bg-cover object-center overflow-hidden lg:flex justify-around">
+        <div className='mr-60 lg:mr-0'>
 
-        <h2 className='text-white ml-96 '><span className='text-5xl'> 4 /</span>4</h2>
-        <h1 className='text-white text-[180px] font-medium leading-[1]'>
+        <h2 className='text-white lg:ml-96 '><span className='text-5xl'> 4 /</span>4</h2>
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1]'>
             BENJON
         </h1> 
-        <h1 className='text-white text-[180px] font-medium leading-[1] translate-x-44 z-10
-        '> WEBSITE </h1>
-        <h1 className='text-white text-[180px] font-medium leading-[1]
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1] lg:translate-x-44
+         z-10 translate-x-10'> WEBSITE </h1>
+        <h1 className='text-white lg:text-[180px] text-5xl font-medium leading-[1]
         '> 2012 </h1>
         </div>
       
-      <img className='-translate-x-24 z-[-1]' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ce321823.jpg&w=1200&q=75" alt=""  />
+      <img className='lg:-translate-x-24 z-[-1]' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ce321823.jpg&w=1200&q=75" alt=""  />
     </div>
   </div>
 </SwiperSlide>
+
 
 
       </Swiper>
@@ -109,3 +110,7 @@ const Fetaured = () => {
 };
 
 export default Fetaured;
+
+// https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.23156821.jpg&w=1200&q=75
+// https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.2d3fe8ed.jpg&w=1200&q=75
+// https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F4.ce321823.jpg&w=1200&q=75

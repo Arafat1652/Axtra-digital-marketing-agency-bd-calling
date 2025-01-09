@@ -6,13 +6,12 @@ const Faq = () => {
     <div className="bg-[#f3ecec]">
       <div className=" p-10 ml-20 ">
         <p className="text-gray-900 uppercase mt-24 mb-4">Pricing Table</p>
-        <h1 className="text-6xl font-medium mb-10 uppercase">
-          Be kind to your
-          <br /> mind
-        </h1>
+        <h1 className="text-4xl font-medium  lg:mb-24 text-black lg:text-6xl md:text-3xl uppercase">
+        Be kind to your<br /> mind
+            </h1>
         {/* flex */}
-        <div className="flex items-start justify-between gap-24">
-          <div className="divide-y divide-black w-[50%]">
+        <div className="lg:flex items-start justify-between gap-24">
+          <div className="divide-y divide-black lg:w-[50%]">
             <details className="group" open>
               <summary className="flex cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
                 Design should enrich our day

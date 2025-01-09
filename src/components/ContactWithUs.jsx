@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const ContactWithUs = () => {
   return (
-    <div className="text-center p-48 flex flex-col items-center">
+    <div className="text-center p-48 flex-col items-center hidden lg:flex">
     <h1 className="text-3xl font-light text-black leading-[1] mb-8">
       Have you project in mind?
     </h1>

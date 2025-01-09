@@ -3,7 +3,7 @@ import "./module.css";
 
 const Stats = () => {
   return (
-    <div className="pt-10 mt-24 container mx-auto">
+    <div className="pt-10 mt-24 container mx-auto hidden lg:grid">
       <p className="text-gray-900 uppercase font-semibold">
         why <br /> choose us
       </p>

@@ -7,18 +7,18 @@ import { CgMenuRight } from 'react-icons/cg';
 const Nav = () => {
 
     const navlink = <>
-        <li><Link className='mx-10' to="/">HOME</Link></li>
-        <li><Link className='mx-10' to="/">ABOUT</Link></li>
-        <li><Link className='mx-10' to="/">PAGES</Link></li>
-        <li><Link className='mx-10' to="/">SERVICES</Link></li>
-        <li> <Link className='mx-10' to="/">TEAM</Link></li>
-        <li><Link className='mx-10' to="/">BLOG</Link></li>
-        <li><Link className='mx-10' to="/">CONTACT</Link></li>
+        <li><Link className='lg:mx-10' to="/">HOME</Link></li>
+        <li><Link className='lg:mx-10' to="/">ABOUT</Link></li>
+        <li><Link className='lg:mx-10' to="/">PAGES</Link></li>
+        <li><Link className='lg:mx-10' to="/">SERVICES</Link></li>
+        <li> <Link className='lg:mx-10' to="/">TEAM</Link></li>
+        <li><Link className='lg:mx-10' to="/">BLOG</Link></li>
+        <li><Link className='lg:mx-10' to="/">CONTACT</Link></li>
     </>
 
     return (
         <div className="navbar bg-base-100 py-6 px-12 fixed z-50">
-  <div className="navbar-start">
+  <div className="navbar-start w-96 lg:w-[100%]">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg
@@ -36,21 +36,21 @@ const Nav = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-0 lg:w-52 p-2 shadow">
             
       {navlink}
       </ul>
     </div>
-    <img src="/public/logo.png" alt="" srcSet="" />
+    <img src="./logo.png" alt="" srcSet="" />
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className=" menu-horizontal text-lg">
       {navlink}
     </ul>
   </div>
-  <div className="navbar-end">
+  <div className="lg:navbar-end navbar-start ml-24 lg:ml-0">
     <FaSearch/>
-    <CgMenuRight className="ml-16" size={25} />
+    <CgMenuRight className="lg:ml-16 ml-4" size={25} />
   </div>
 </div>
     );
